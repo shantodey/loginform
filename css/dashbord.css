@@ -2,12 +2,21 @@ body{
     background-color: black;
     color: white;
 }
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
 .Menu__side {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-right: 0.5px solid white;
 }
 .logo{
     height: 92px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .div8{
     display: flex;
@@ -54,3 +63,106 @@ body{
     overflow: hidden;
     background-color: antiquewhite;
 }
+
+
+
+ .people {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 20px;
+}
+
+.people1 {
+    grid-column: span 2 / span 2;
+}
+
+.follow1 {
+    grid-column-start: 3;
+}
+
+.people2 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
+}
+
+.follow2 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.people3 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 3;
+}
+.suggested{
+    display: flex;
+    justify-content: start;
+}
+.suggested__img{
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.id__name{
+    padding-left: 20px;
+    display: flex;
+    justify-items: start;
+    align-items: center;
+}
+.follow3 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.people4 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 4;
+}
+
+.follow4 {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+.people5 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 5;
+}
+
+.follow5 {
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+
+.people6 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 6;
+}
+
+.follow6 {
+    grid-column-start: 3;
+    grid-row-start: 6;
+}
+
+.people7 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 7; /* Changed to row 7 to accommodate all items correctly */
+}
+
+.follow7 {
+    grid-column-start: 3;
+    grid-row-start: 7; /* Changed to row 7 to accommodate all items correctly */
+}
+
+.div14 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-row-start: 8; /* Changed to row 8 to accommodate all items correctly */
+}
+        
+        
