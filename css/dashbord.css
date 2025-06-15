@@ -49,6 +49,185 @@ img{
     grid-row-start: 12;
 }
         
+
+
+
+
+
+
+
+
+
+
+.content{
+    width: 100%;
+    max-width: 630px;
+}
+
+.post {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.post_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #333;
+}
+
+.account__details {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.account-info .username {
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.account-info .username .time {
+    color: #888;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.account-info .location {
+    font-size: 12px;
+    color: #888;
+}
+
+.post-options {
+    color: #888;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.account__content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account__content img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.post__details {
+    padding: 15px;
+}
+
+.post__icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.post__icons i {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.post__icons .save-icon {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.likes-count {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.caption {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.caption-username {
+    font-weight: 600;
+}
+
+.more-text {
+    color: #888;
+    cursor: pointer;
+}
+
+.view-comments {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.add-comment {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+.add-comment input {
+    flex-grow: 1;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    padding: 5px 0;
+}
+
+.add-comment input::placeholder {
+    color: #888;
+}
+
+.add-comment .fa-smile {
+    font-size: 18px;
+    color: #888;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
 .story{
     display: flex;
     justify-content: space-evenly;
